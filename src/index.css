@@ -1,0 +1,67 @@
+body{
+  background-color: #242424;
+  color: #fff;
+  font: 1em sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  height: 90vh;
+  justify-content :center;
+  overflow-x: scroll;
+}
+
+.card {
+  margin: 10px;
+}
+
+.invisible-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Firefox */
+.scroller {
+  scrollbar-width: none;
+}
+
+aside {
+  background: #c9f6ff;
+  color: #242424;
+  height: 97vh;
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.main {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+
+
+.aside-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aside-title button{
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+@media screen and (max-width: 660px) {
+  .card {
+    margin: 10px 0;
+  }
+}
