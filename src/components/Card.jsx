@@ -3,7 +3,7 @@ import Tag from "./Tag";
 const Card = ({ map, name, description, tag, trajet }) => {
   return (
     <div className="card">
-      <h2>{name}</h2>
+      <h2>{name.toUpperCase()}</h2>
       <iframe
         src={map}
         width="300"
